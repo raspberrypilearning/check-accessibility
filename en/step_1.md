@@ -1,59 +1,23 @@
-## Introduction
+Accessibility tools check that your website can be viewed by people with disabilities. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Click on the `Published` button:
 
-### What you will make
+![The published button.](images/published-button.png)
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Right-click on the `Site URL` link and choose `Copy Link Address`:
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+![The Publish your trinket popup window with a right click menu over the site URL link.](images/copy-published-address.png)
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+Go to the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/){:target="_blank"} website and paste in your published site URL then click on the arrow:
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+![The Wave website with published url pasted into the text box and arrow to the right.](images/wave-website.png)
 
-+ A computer or tablet capable of running Scratch 3
+The aim is to have zero contrast errors:
 
-### Software
+![The summary report highlighting zero contrast errors.](images/report-errors.png)
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+If contrast errors are reported, click on the Contrast tab and use the sliders to change the foreground or background colours until they pass the test: 
 
-### Downloads
+![The Wave website with published url pasted into the text box and arrow to the right.](images/contrast-sliders.png)
 
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+Copy the new hex codes and replace them in the colour variables of your mood board web page. 
